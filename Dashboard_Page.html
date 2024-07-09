@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Tracker - Dashboard</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-color: rgb(206, 228, 210);"> <!-- Set the background color here -->
+    <div class="container">
+        <h2 class="mt-5">Dashboard</h2>
+        <div class="alert alert-info">Welcome, <span id="usernameDisplay">User</span>!</div>
+        <h3>Balance Overview</h3>
+        <p>Your current balance is: <strong>$1,234.56</strong></p>
+        <h3>Recent Transactions</h3>
+        <ul class="list-group">
+            <li class="list-group-item">Grocery - $150</li>
+            <li class="list-group-item">Salary Credit - $2000</li>
+            <li class="list-group-item">Utility Bill - $100</li>
+        </ul>
+    </div>
+
+    <script>
+        // This script would normally fetch this data from the backend
+        document.getElementById('usernameDisplay').textContent = 'Bob Smith'; // Example username
+    </script>
+</body>
+</html>
+
